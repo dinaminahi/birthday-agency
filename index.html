@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Celebrate It</title>
-</head>
-<body>
-  <nav>
-  <a href="">Celebrate It</a>
-  <a href="">about</a>
-  <a href="">examples</a>
-  <a href="">contacts</a>
-  <a href="">order event</a>
-  </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://kit.fontawesome.com/9b7bff8eb0.js"></script>
+        <title>Celebrate It</title>
+    </head>
+    <body>
+        <nav>
+            <a href="">Celebrate It</a>
+            <a href="">about</a>
+            <a href="">examples</a>
+            <a href="">contacts</a>
+            <a href="">order event</a>
+        </nav>
 
-<div id="title">
-  <h2>Is birthday, Halloween or any party  coming soon?</h1>
-  <h1>Don't worry!</h1>
-  <h1>Let us organise EVERYTHING!</h1>
-  <img src="images/birthday.jpg" alt="photo-of-birthday-party">
-</div>
+        <div id="title">
+            <h2>Is birthday, Halloween or any party  coming soon?</h2>
+            <h1>Don't worry!</h1>
+            <h1>Let us organise EVERYTHING!</h1>
+            <img src="images/birthday.jpg" alt="photo-of-birthday-party">
+        </div>
 
-<div id="description">
-    <div class="box">
-        <h2>Choose topic</h2>
-        <p>Your kid is delighted with princesses, no problem - the party will be as real princess ball. Or your son can't live without dinosours, okey, let's make a prehistoric party. You can choose any topic that you can only imagine. We will do it for you!</p>
-        <img id="garland-first-box" src="images/garlands.png" alt="colorful-garlands">
-    </div>
-    <div class="box">
-        <h2>Tell us everything</h2>
-        <p>We would like to know how many guests there will be and how old are them. Also tell us the location of party and all your wishes about food menu.</p>
+        <div id="description">
+            <div class="box">
+                <h2>Choose topic</h2>
+                <p>Your kid is delighted with princesses, no problem - the party will be as real princess ball. Or your son can't live without dinosours, okey, let's make a prehistoric party. You can choose any topic that you can only imagine. We will do it for you!</p>
+                <img id="garland-first-box" src="images/garlands.png" alt="colorful-garlands">
+            </div>
+            <div class="box">
+                <h2>Tell us everything</h2>
+                <p>We would like to know how many guests there will be and how old are them. Also tell us the location of party and all your wishes about food menu.</p>
+            </div>
+            <div class="box">
+                <h2>Be calm</h2>
+                <p>The most qualified spesialist are woking with our company. From cupcakes to costums - everything will be perfect. Our team will create fabulous atmosphere and will make wonderful mood for you!</p>
+                <img id="garland-second-box" src="images/garlands.png" alt="colorful-garlands">
+            </div>
+            <img id="bear-right" src="images/bear.png" alt="bear-that-is-flying-with-balloons">
+            <img id="bear-left" src="images/bear.png" alt="bear-that-is-flying-with-balloons">
+        </div>
 
-    </div>
-    <div class="box">
-        <h2>Be calm</h2>
-        <p>The most qualified spesialist are woking with our company. From cupcakes to costums - everything will be perfect. Our team will create fabulous atmosphere and will make wonderful mood for you!</p>
-        <img id="garland-second-box" src="images/garlands.png" alt="colorful-garlands">
-    </div>
-    <img id="bear-right" src="images/bear.png" alt="bear-that-is-flying-with-balloons">
-    <img id="bear-left" src="images/bear.png" alt="bear-that-is-flying-with-balloons">
+        <div id="examples-and-form">
+            <h1>Examples</h1>
+            <img src="images/party-example-1.jpg" alt="photo-of-birthday-party" class="party-example">
+            <img src="images/party-example-2.jpg" alt="photo-of-birthday-party" class="party-example">
+            <img src="images/party-example-3.jpg" alt="photo-of-birthday-party" class="party-example">
+            <img src="images/party-example-4.jpg" alt="photo-of-birthday-party" class="party-example">
+            <img src="images/party-example-5.jpg" alt="photo-of-birthday-party" class="party-example">
+            <img src="images/party-example-6.jpg" alt="photo-of-birthday-party" class="party-example">
+            <div id="form-to-order-event">
+                <h1>Are you ready to to dive into the world of magic?</h1>
+                <p>Leave your contacts in the form below, our team will contact you as soon as possible.</p>
+                <form action="https://formspree.io/diankagrechukh@gmail.com" method="POST">
+                    <input class="order name" type="text" placeholder="Name" name="name">
+                    <input class="order phone-number" type="tel" placeholder="Phone number" name="phone-number">
+                    <input class="order email" type="email" placeholder="Email" name="email">
+                    <input class="order user-comment" type="text" placeholder="Your comment" name="comment">
+                    <input class="submit-btn" value="Submit" type="submit">
+                </form>
+            </div>
+        </div>
 
-</div>
-
-<div id="examples">
-
-</div>
-
-</body>
+        <div id="footer">
+            <h2>Celebrate It</h2>
+            <p>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+            </p>
+            <h2>Address</h2>
+            <p>Lviv</p>
+            <p>Horodotska Street, 120, Lviv</p>
+            <p>Kyiv</p>
+            <p>Nezalezna Street, 33, Kyiv</p>
+            <h2>Contacts</h2>
+            <p>Lviv</p>
+            <p>+380965353672, celabrateIt1@gmail.com</p>
+            <p>Kyiv</p>
+            <p>+380984736590, celabrateIt1@gmail.com</p>
+        </div>
+    </body>
 </html>
