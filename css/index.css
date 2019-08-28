@@ -27,10 +27,18 @@ width: auto;
     align-items: center;
     background-color: #444444;
     color: #feffdb;
+
 }
 ul {
    list-style-type: none;
 }
 .navigation-item{
     color: #feffdb;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 1.5em;
+    padding-right: 40px;
+}
+#main-logo-text{
+    font-size: 1.75em;
+    padding-top: 5px;
 }
