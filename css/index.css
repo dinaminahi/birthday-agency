@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Wendy+One&display=swap');
-
 :root {
-
     --light-color: #feffdb;
     --dark-color: #444444;
-    --heading-font:  'Wendy One', sans-serif;
-}
+     --heading-font: 'Wendy One', sans-serif;
+    }
 
-body{
+body {
     max-width: 980px;
     margin: auto;
 }
@@ -18,34 +16,98 @@ body{
     padding-right: 5px;
 }
 
-header .navbar{
+header .navbar {
     background-color: var(--dark-color);
     font-family: var(--heading-font);
     padding: 0 16px;
 }
+
 header nav .navbar-brand {
-      color: var(--light-color);
-      font-size: 1.75em;
+    color: var(--light-color);
+    font-size: 1.75em;
 }
 
-header nav .navbar-toggler{
-      color: var(--light-color);
-}
-header nav ul li a{
-        color: var(--light-color);
-        font-size: 1.5em;
+header nav .navbar-toggler {
+    color: var(--light-color);
 }
 
+header nav ul li a {
+    color: var(--light-color);
+    font-size: 1.5em;
+}
 
 header #title {
-    background-image: linear-gradient(to top left, red 50%, yellow 50%);
-
+    background-image: linear-gradient(to top left, #ffc60b 50%, #feffdb 50%);
     height: 500px;
-
+    background-position: center;
+    background-size: cover;
 }
 
+#title h1, #title h2 {
+    font-family: var(--heading-font);
+    color: var(--dark-color);
+    display: flex;
+}
 
+#title .first-heading {
+    justify-content: center;
+    padding: 190px 0 0 190px;
+    font-size: 1.3em;
+    text-align: center;
+}
 
+#title .second-heading {
+    justify-content: center;
+    padding: 10px 0 10px 150px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#title .third-heading {
+    justify-content: center;
+    font-size: 1.3em;
+    text-align: center;
+    padding-left: 130px;
+}
+
+@media(min-width: 400px) {
+    #title .first-heading {
+        padding: 250px 0 0 250px;
+    }
+}
+
+@media (min-width: 600px) {
+    #title .first-heading {
+        padding: 30px 50px 0 100px;
+        font-size: 1.8em;
+    }
+
+    #title .second-heading {
+        justify-content: flex-end;
+        padding: 100px 5px 100px 0;
+        font-size: 2.1em;
+    }
+
+    #title .third-heading {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 900px) {
+    #title .first-heading {
+        padding: 50px 200px 0 200px;
+        font-size: 2em;
+    }
+
+    #title .second-heading {
+        padding: 100px 5px 100px 0;
+        font-size: 2.3em;
+    }
+
+    #title .third-heading {
+        font-size: 2.3em;
+    }
+}
 
 /* #bear-right {
     height: 300px;
