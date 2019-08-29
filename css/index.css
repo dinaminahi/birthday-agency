@@ -47,6 +47,7 @@ header #title {
     font-family: var(--heading-font);
     color: var(--dark-color);
     display: flex;
+    text-shadow: 4px 9px 7px rgba(68,68,68,0.36);
 }
 
 #title .first-heading {
