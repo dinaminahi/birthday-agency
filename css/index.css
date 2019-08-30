@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Wendy+One&display=swap');
 
-:root {
-    --light-color: #feffdb;
-    --dark-color: #444444;
-    --heading-font: 'Wendy One', sans-serif;
-    --p-font: 'Lato', sans-serif;
-    --p-color: #ffc60b;
-    }
+ :root {
+    --light-color: #feffdb; --dark-color: #444444; --heading-font: 'Wendy One', sans-serif; --p-font: 'Lato', sans-serif; --p-color: #ffc60b;
+}
 
 body {
     max-width: 980px;
@@ -37,9 +33,9 @@ header nav .navbar-toggler {
 header nav ul li a {
     color: var(--light-color);
     font-size: 1.5em;
-
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     color: #ffc60b;
 }
 
@@ -131,10 +127,11 @@ header #title {
     margin-bottom: 50px;
 }
 
-#description .second-box{
+#description .second-box {
     padding-bottom: 70px;
 }
-#description .third-box{
+
+#description .third-box {
     padding-bottom: 30px;
 }
 
@@ -153,41 +150,41 @@ header #title {
     padding: 0 40px 60px 40px;
 }
 
-@media (min-width: 700px){
-    #description .box{
+@media (min-width: 700px) {
+    #description .box {
         height: 320px;
     }
-
 }
-@media (min-width: 900px){
-    #description .box{
+
+@media (min-width: 900px) {
+    #description .box {
         height: 280px;
     }
 }
 
 #garland-first-box {
-height: 50px;
-width: auto;
-position: absolute;
-/* z-index: 1; */
-right: 90px;
-bottom: 80px;
-transform: rotate(15deg);
+    height: 50px;
+    width: auto;
+    position: absolute;
+    right: 90px;
+    bottom: 80px;
+    transform: rotate(15deg);
 }
 
-@media (min-width: 720px){
-   #garland-first-box {
-      height: 70px;
-      right: 110px;
-      bottom: 60px;
-  }
+@media (min-width: 720px) {
+    #garland-first-box {
+        height: 70px;
+        right: 110px;
+        bottom: 60px;
+    }
 }
-@media (min-width: 900px){
-   #garland-first-box {
-      height: 70px;
-      right: 130px;
-      bottom: 60px;
-}
+
+@media (min-width: 900px) {
+    #garland-first-box {
+        height: 70px;
+        right: 130px;
+        bottom: 60px;
+    }
 }
 
 /* #bear-right {
@@ -200,9 +197,9 @@ transform: rotate(15deg);
     width: auto;
 }
 
-
-
 #garland-second-box {
 height: 200px;
 width: auto;
 }
+
+
