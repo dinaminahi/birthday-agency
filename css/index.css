@@ -187,6 +187,20 @@ header #title {
     }
 }
 
+@media (min-width: 1020px) {
+    #garland-first-box {
+        height: 70px;
+        right: 180px;
+        bottom: 60px;
+    }
+}
+@media (min-width: 1120px) {
+    #garland-first-box {
+        height: 80px;
+        right: 230px;
+        bottom: 60px;
+    }
+}
 /* #bear-right {
     height: 300px;
     width: auto;
