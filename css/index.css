@@ -48,6 +48,8 @@ header #title {
 
 #party-img{
     clip-path: polygon(0px 420px,349px 221px,0px 0px);
+    position: absolute;
+    width: 60%;
 }
 
 #title h1, #title h2 {
@@ -237,6 +239,10 @@ header #title {
     bottom: -99px;
     left: -60px;
     }
+}
+
+div .carousel-img{
+    max-width:50%;
 }
 
 
