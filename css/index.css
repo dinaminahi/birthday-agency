@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Wendy+One&display=swap');
-
- :root {
-    --light-color: #feffdb; --dark-color: #444444; --heading-font: 'Wendy One', sans-serif; --p-font: 'Lato', sans-serif; --p-color: #ffc60b;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato|Wendy+One&display=swap'); :root {
+    --light-color: #feffdb; --dark-color: #444444; --heading-font: 'Wendy One', sans-serif; --p-font: 'Lato', sans-serif; --p-color: #ffc60b; }
 
 body {
     max-width: 980px;
@@ -46,10 +43,28 @@ header #title {
     background-size: cover;
 }
 
-#party-img{
+#party-img {
     clip-path: polygon(0px 420px,349px 221px,0px 0px);
     position: absolute;
-    width: 60%;
+    max-width: 63%;
+}
+
+@media (min-width: 700px) {
+    #party-img {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 850px) {
+    #party-img {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 850px) {
+    #party-img {
+        max-width: 30%;
+    }
 }
 
 #title h1, #title h2 {
@@ -173,6 +188,7 @@ header #title {
     position: absolute;
     width: 70px;
 }
+
 #garland-third-box {
     position: absolute;
     width: 70px;
@@ -180,95 +196,104 @@ header #title {
     top: 10px;
     transform: rotate(20deg);
 }
+
 #bear-right {
     width: 100px;
     position: absolute;
     right: -20px;
     bottom: -69px;
 }
+
 #bear-left {
     width: 100px;
     position: absolute;
     transform: scaleX(-1);
 }
+
 @media (min-width: 450px) {
     #garland-first-box, #garland-third-box {
         width: 100px;
     }
+
     #bear-right , #bear-left {
-    width: 110px;
+        width: 110px;
     }
 }
 
 @media (min-width: 600px) {
-    #garland-first-box,  #garland-third-box  {
+    #garland-first-box, #garland-third-box {
         width: 130px;
     }
+
     #bear-right {
-    width: 120px;
-    right: -40px;
-    bottom: -89px;
+        width: 120px;
+        right: -40px;
+        bottom: -89px;
     }
+
     #bear-left {
-    width: 120px;
+        width: 120px;
     }
 }
 
 @media (min-width: 700px) {
     #bear-right {
-    width: 122px;
-    right: -55px;
-    bottom: -120px;
+        width: 122px;
+        right: -55px;
+        bottom: -120px;
     }
+
     #bear-left {
-    width: 132px;
-    bottom: -99px;
-    left: -40px;
+        width: 132px;
+        bottom: -99px;
+        left: -40px;
     }
 }
 
 @media (min-width: 800px) {
-    #garland-first-box,  #garland-third-box  {
+    #garland-first-box, #garland-third-box {
         width: 160px;
     }
+
     #bear-right {
-    width: 130px;
+        width: 130px;
     }
+
     #bear-left {
-    width: 136px;
-    bottom: -99px;
-    left: -60px;
+        width: 136px;
+        bottom: -99px;
+        left: -60px;
     }
 }
 
-
-div .carousel-img{
-margin: auto;
-max-width: 70%;
-border-radius: 20px;
+div .carousel-img {
+    margin: auto;
+    max-width: 70%;
+    border-radius: 20px;
 }
 
 div a .arrow {
-color: var(--dark-color);
+    color: var(--dark-color);
 }
 
-#examples-and-form{
+#examples-and-form {
     background-color: var(--light-color);
 }
 
-#examples-and-form h1{
-   color: var(--dark-color);
-   font-family: var(--heading-font);
-   text-align: center;
-   padding-bottom: 50px;
+#examples-and-form h1 {
+    color: var(--dark-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 #examples-and-form h2 {
     padding-top: 140px;
     color: var(--dark-color);
-   font-family: var(--heading-font);
-   text-align: center;
+    font-family: var(--heading-font);
+    text-align: center;
 }
+
 #examples-and-form p {
     padding-top: 3px;
     color: var(--dark-color);
@@ -276,62 +301,62 @@ color: var(--dark-color);
     text-align: center;
     padding-bottom: 40px;
 }
+
 #form-to-order-event input {
     display: block;
     margin: 30px auto 20px auto;
     border-radius: 8px;
-    border:  0.5px solid #c4c4c4;
+    border: 0.5px solid #c4c4c4;
     padding: 3px 80px 3px 3px;
 }
+
 #form-to-order-event .email {
-   padding-right: 200px;
+    padding-right: 200px;
 }
+
 #form-to-order-event .user-comment {
-   padding-right: 200px;
-   padding-bottom: 80px;
+    padding-right: 200px;
+    padding-bottom: 80px;
 }
 
 .submit-btn {
-	-moz-box-shadow: 0px 10px 12px -7px #444444;
-	-webkit-box-shadow: 0px 10px 12px -7px #444444;
-	box-shadow: 0px 10px 12px -7px #444444;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc60b), color-stop(1, #ff8c00));
-	background:-moz-linear-gradient(top, #ffc60b 5%, #ff8c00 100%);
-	background:-webkit-linear-gradient(top, #ffc60b 5%, #ff8c00 100%);
-	background:-o-linear-gradient(top, #ffc60b 5%, #ff8c00 100%);
-	background:-ms-linear-gradient(top, #ffc60b 5%, #ff8c00 100%);
-	background:linear-gradient(to bottom, #ffc60b 5%, #ff8c00 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc60b', endColorstr='#ff8c00',GradientType=0);
-	background-color:#ffc60b;
-	-moz-border-radius:18px;
-	-webkit-border-radius:18px;
-	border-radius:18px;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #444444;
+    -moz-box-shadow: 0px 10px 12px -7px #444444;
+    -webkit-box-shadow: 0px 10px 12px -7px #444444;
+    box-shadow: 0px 10px 12px -7px #444444;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc60b), color-stop(1, #ff8c00));
+    background: -moz-linear-gradient(top, #ffc60b 5%, #ff8c00 100%);
+    background: -webkit-linear-gradient(top, #ffc60b 5%, #ff8c00 100%);
+    background: -o-linear-gradient(top, #ffc60b 5%, #ff8c00 100%);
+    background: -ms-linear-gradient(top, #ffc60b 5%, #ff8c00 100%);
+    background: linear-gradient(to bottom, #ffc60b 5%, #ff8c00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc60b', endColorstr='#ff8c00',GradientType=0);
+    background-color: #ffc60b;
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #444444;
 }
+
 .submit-btn:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff8c00), color-stop(1, #ffc60b));
-	background:-moz-linear-gradient(top, #ff8c00 5%, #ffc60b 100%);
-	background:-webkit-linear-gradient(top, #ff8c00 5%, #ffc60b 100%);
-	background:-o-linear-gradient(top, #ff8c00 5%, #ffc60b 100%);
-	background:-ms-linear-gradient(top, #ff8c00 5%, #ffc60b 100%);
-	background:linear-gradient(to bottom, #ff8c00 5%, #ffc60b 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8c00', endColorstr='#ffc60b',GradientType=0);
-	background-color:#ff8c00;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff8c00), color-stop(1, #ffc60b));
+    background: -moz-linear-gradient(top, #ff8c00 5%, #ffc60b 100%);
+    background: -webkit-linear-gradient(top, #ff8c00 5%, #ffc60b 100%);
+    background: -o-linear-gradient(top, #ff8c00 5%, #ffc60b 100%);
+    background: -ms-linear-gradient(top, #ff8c00 5%, #ffc60b 100%);
+    background: linear-gradient(to bottom, #ff8c00 5%, #ffc60b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8c00', endColorstr='#ffc60b',GradientType=0);
+    background-color: #ff8c00;
 }
+
 .submit-btn:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
-
-
-
-
-
