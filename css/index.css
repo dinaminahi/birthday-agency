@@ -241,8 +241,23 @@ header #title {
     }
 }
 
+
 div .carousel-img{
-    max-width:50%;
+margin: auto;
+max-width: 70%;
+}
+
+div a .fas {
+color: var(--dark-color);
+width: 20px;
+}
+div #examples-and-form{
+    background-color: var(--light-color);
+}
+#examples{
+   color: var(--light-color);
+   font-family: var(--heading-font);
+   text-align: center;
 }
 
 
