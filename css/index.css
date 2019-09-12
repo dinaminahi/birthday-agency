@@ -314,12 +314,32 @@ div a .arrow {
 }
 
 #form-to-order-event .email {
-    padding-right: 160px;
+    padding-right: 130px;
 }
 
 #form-to-order-event .user-comment {
-    padding-right: 160px;
+    padding-right: 130px;
     padding-bottom: 80px;
+}
+
+@media(min-width: 360){
+   #form-to-order-event .email {
+       padding-right: 150px;
+   }
+
+   #form-to-order-event .user-comment {
+       padding-right: 150px;
+    }
+}
+
+@media(min-width: 500){
+   #form-to-order-event .email {
+       padding-right: 200px;
+   }
+
+   #form-to-order-event .user-comment {
+       padding-right: 200px;
+    }
 }
 
 .submit-btn {
