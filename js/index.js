@@ -1,5 +1,9 @@
-
 $('#bear-right').click(function(){
-     $('#bear-right').addClass('animated flip');
-     $('#bear-right').removeClass('animated flip');
+     $('#bear-right').toggleClass('animated flip');
 });
+
+$('#bear-left').click(function () {
+     $('#bear-left').toggleClass('animated swing');
+});
+
+

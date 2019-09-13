@@ -204,12 +204,13 @@ header #title {
     position: absolute;
     right: -20px;
     bottom: -69px;
+    cursor: pointer;
 }
 
 #bear-left {
     width: 100px;
     position: absolute;
-    transform: scaleX(-1);
+    cursor: pointer;
 }
 
 @media (min-width: 450px) {
